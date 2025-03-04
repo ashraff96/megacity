@@ -80,7 +80,7 @@ public class RegisterServlet extends HttpServlet {
         	request.setAttribute("nic", nic);
         	request.setAttribute("telephone", telephone);
         	
-        	request.setAttribute("messages", "Registration Failed! Try Again");
+        	request.setAttribute("messages", List.of("Registration Failed! Try Again"));
         	request.setAttribute("messageType", "error");
         	
         	request.getRequestDispatcher("/WEB-INF/views/register.jsp").forward(request, response);
