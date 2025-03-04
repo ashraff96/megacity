@@ -1,0 +1,35 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Maven build directory
+target/
+
+# Eclipse local history
+.metadata/
+
+# Java class files
+*.class
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# Temporary files 
+*.swp
+*.swo
+
+# Dependency directories 
+lib/
+
+# JAR/WAR files
+*.jar
+*.war
+
+# Gradle files 
+.gradle/
+build/
