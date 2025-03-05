@@ -151,7 +151,7 @@ header {
     right: 0;
     z-index: 100;
     background: #fff;
-    padding-block: .4rem; 
+    padding-block: .2rem; 
     transition: background .5s;
     border-bottom: var(--border);
 

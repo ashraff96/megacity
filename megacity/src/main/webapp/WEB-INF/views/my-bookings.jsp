@@ -17,7 +17,7 @@
 
 	<div class="container">
    	
-        <div class="booking-container" style="margin-top: 6rem;">
+        <div class="booking-container" style="margin-top: 9rem;">
             <c:forEach var="booking" items="${bookings}">
                 <div class="booking">
                     <p>Booking Number: <span>${booking.id}</span></p>
