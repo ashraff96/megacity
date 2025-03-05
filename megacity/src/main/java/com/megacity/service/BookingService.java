@@ -23,4 +23,23 @@ public class BookingService implements IBookingService{
 		return bookingDAO.getBookingsByUserId(id);
 	}
 
+	@Override
+	public List<Booking> getBookingsByStatus(String status) {
+		return bookingDAO.getBookingByStatus(status);
+	}
+
+	@Override
+	public void declineBooking(int id) {
+		bookingDAO.declineBooking(id);
+	}
+
+	@Override
+	public boolean assignBooking(Booking booking) {
+		return bookingDAO.assignBooking(booking);
+	}
+
+	@Override
+	public Booking getBookingById(int id) {
+		return bookingDAO.getBookingById(id); 	
+	}
 }

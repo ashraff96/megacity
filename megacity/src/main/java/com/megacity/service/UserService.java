@@ -30,4 +30,9 @@ public class UserService implements IUserService{
 	public boolean isUsernameTaken(String username) {
 		return userDAO.isUsernameTaken(username);
 	}
+
+	@Override
+	public User getUserById(int id) {
+		return userDAO.getUserById(id);
+	}
 }

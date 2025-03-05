@@ -18,6 +18,8 @@ public class Booking {
     
     private User user;
     private int fare;
+    private Driver driver;
+    private Vehicle vehicle;
     
     public Booking() {}
     
@@ -133,5 +135,21 @@ public class Booking {
 
 	public void setFare(int fare) {
 		this.fare = fare;
+	}
+
+	public Driver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Driver driver) {
+		this.driver = driver;
+	}
+
+	public Vehicle getVehicle() {
+		return vehicle;
+	}
+
+	public void setVehicle(Vehicle vehicle) {
+		this.vehicle = vehicle;
 	}               
 }

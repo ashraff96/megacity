@@ -375,15 +375,6 @@ section {
          font-size: 1.8rem;
          border-radius: .5rem;
          
-         &.disabled {
-         	background-color: var(--light-bg); 
-		    color: var(light1); 
-		    border: none;
-		    cursor: not-allowed; 
-		    opacity: 0.6; 
-		    pointer-events: none; 
-         }
-
          &.username::placeholder {
             text-transform: capitalize;
          }

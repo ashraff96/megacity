@@ -101,4 +101,28 @@ public class UserDAO implements IUserDAO{
         return false;
 	}
 
+	@Override
+	public User getUserById(int id) {
+		String query = "SELECT * FROM users WHERE id = ?";
+        try (Connection conn = DBConnectionFactory.getConnection();
+             PreparedStatement stmt = conn.prepareStatement(query)) {
+
+            stmt.setInt(1, id);
+            try (ResultSet rs = stmt.executeQuery()) {
+                if (rs.next()) {
+                    return new User(
+                            rs.getString("name"),
+                            rs.getString("address"),
+                            rs.getString("nic"),
+                            rs.getString("telephone"),
+                            rs.getString("username")
+                    );
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+	}
+
 }
