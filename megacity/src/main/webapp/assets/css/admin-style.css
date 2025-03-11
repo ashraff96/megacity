@@ -83,7 +83,7 @@ section {
 .btn:hover,
 .delete-btn:hover,
 .option-btn:hover {
-   background-color: #00ff59;
+   background-color: rgb(0, 128, 0);
 }
 
 .flex-btn {

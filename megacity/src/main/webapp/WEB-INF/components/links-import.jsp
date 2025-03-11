@@ -3,6 +3,6 @@
 
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-<link rel="icon" href="<%= request.getContextPath() %>/assets/images/logo.png" type="image/x-icon">
+<link rel="icon" href="<%= request.getContextPath() %>/assets/images/logo2.png" type="image/x-icon">
 
 <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/assets/css/user-style.css">

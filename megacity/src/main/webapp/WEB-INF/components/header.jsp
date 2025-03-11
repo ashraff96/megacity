@@ -3,7 +3,7 @@
     	<div class="header-container container">
 
            <a href="<%= request.getContextPath() %>">
-               <img src="<%= request.getContextPath() %>/assets/images/logo.png" alt="">
+               <img src="<%= request.getContextPath() %>/assets/images/logo2.png" alt="">
            </a>
 
            <nav id="nav">

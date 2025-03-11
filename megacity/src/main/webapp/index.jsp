@@ -12,6 +12,8 @@
 
 	<jsp:include page="/WEB-INF/components/header.jsp" />
 	<jsp:include page="/WEB-INF/components/message.jsp" />
+	<jsp:include page="/WEB-INF/components/homepage.jsp" />
+	
 
 	
 	
