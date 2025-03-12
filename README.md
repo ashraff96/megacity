@@ -1,4 +1,5 @@
-Mega City Cab System
+**Mega City Cab System**
+
 The Mega City Cab project aims to automate the booking and management processes for the company, 
 eliminating inefficiencies and errors from the current manual system. This new system will streamline operations,
 improve customer booking experiences, and manage driver and vehicle details effectively.
